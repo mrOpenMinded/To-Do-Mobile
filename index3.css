@@ -314,12 +314,13 @@ margin-left: 7px;
         /* text-align: center; */
     }
     .pop-up{
-        height: 40vw;
+        height: 44vw;
         width: 77%;
-        left: 40px;
+        left: 35px;
         top: 250px;
     }
     #btn{
-        left: 115px;
+        left: 112px;
+        
     }
 }

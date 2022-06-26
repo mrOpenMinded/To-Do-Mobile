@@ -1,8 +1,8 @@
- /* #line{
+ 
+/* #line{
     width: 30%;
     border-bottom: 2px solid grey;
- } */
-    
+} */
 *{
     margin: 0;
     padding: 0;
@@ -14,18 +14,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .line{
     /* border: 2px solid red;
     /* width: 1%; */
     /* border-right: 2px solid grey;
     padding-right: 10px; */ 
-    /* 19-06 changes made */
-    /* width: 10%;
+    width: 10%;
     border-bottom: 1px solid gray;
-    opacity: 0.4; */
-    /* display: none; */
+    opacity: 0.4;
 }
 .heading{
     font-size: 40px;
@@ -36,8 +34,7 @@
 }
 .back-circle{
     display: flex;
-    margin-top: 30px;
-    /* 19-06 changes made */
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
     /* margin: auto; */
@@ -47,7 +44,6 @@
     color: grey;
     margin-left: 13px;
     letter-spacing: 1px;
-    display: none;
 }
 .card{
     /* margin-top: 35px; */
@@ -55,8 +51,7 @@
     left: 39%;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 30px ;  
-    /* 19-06 chnages made  */
+    margin-top: 40px ;
     border: 2px solid aqua;
     width: 23%;
     height: 45vh;
@@ -66,7 +61,7 @@
 }
 .div-1{
     position: absolute;
-    top: 35px;
+    top: 25px;
     right: 0px;
     font-size: 21px;
     width: 65%;
@@ -90,8 +85,7 @@
     opacity: 1.0;
     width: 85%;
     height: 10%;
-    /* //19-06 changes made */
-    font-size: 19px;
+    font-size: 18px;
     position: absolute;
     top: 52%;
     color: rgb(101, 98, 98);
@@ -102,20 +96,34 @@
     bottom: 11px;
     right: 15px;
 }
-/* 19-06 changes made */
-#check{
-    height: 15px;
-    width: 15px;
-}
-
-
 
 /* media-queries */
-@media(max-width:600px) and (min-width:350px){
+
+  @media(max-width:450px) and (min-width:300px){
     .line{
-        /* display: none; */
+        display: none;
     }
     .circle-back{
+        display: none;
+    }
+    .prev-page-arrow{
+        position: absolute;
+        top: 35px;
+        left: 30px;
+        width: 30px;
+        height: 40px;
+        /* font-size: 15px; */
+    }
+    .card{
+        width: 60%;
+        height: 95vw;
+        left: 55px;
+    }
+    .div-1{
+        font-weight: bolder;
+    }
+}
+    /* .circle-back{
         display: none;
     }
     .div-1{
@@ -127,3 +135,25 @@
         left: 65px;
     }
 }
+@media(max-width:1000px) and (min-width:601px){
+    .card{
+        width: 80%;
+        height: 101vw;
+        left: 50px;
+    }
+    .div-1{
+        font-size: 50px;
+    }
+    .div-2{
+        font-size: 40px;
+    }
+    .div-3{
+        font-size: 35px;
+    }
+    #check{
+        height: 25px;
+        width: 25px;
+    }
+    
+} */ 
+/*/

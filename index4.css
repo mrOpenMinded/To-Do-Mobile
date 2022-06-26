@@ -1,11 +1,4 @@
-
-
-/* #line{
-    width: 30%;
-    border-bottom: 2px solid grey;
- } */
-    
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,18 +9,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .line{
     /* border: 2px solid red;
     /* width: 1%; */
     /* border-right: 2px solid grey;
     padding-right: 10px; */ 
-    /* 19-06 changes made */
-    /* width: 10%;
+    width: 10%;
     border-bottom: 1px solid gray;
-    opacity: 0.4; */
-    /* display: none; */
+    opacity: 0.4;
 }
 .heading{
     font-size: 40px;
@@ -38,8 +29,7 @@
 }
 .back-circle{
     display: flex;
-    margin-top: 30px;
-    /* 19-06 changes made */
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
     /* margin: auto; */
@@ -49,7 +39,6 @@
     color: grey;
     margin-left: 13px;
     letter-spacing: 1px;
-    display: none;
 }
 .card{
     /* margin-top: 35px; */
@@ -57,18 +46,17 @@
     left: 39%;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 30px ;  
-    /* 19-06 chnages made  */
-    border: 2px solid aqua;
+    margin-top: 40px ;
+    border: 1px solid aqua;
     width: 23%;
     height: 45vh;
-    border-radius: 11px;
+    border-radius: 9px;
     box-shadow: 5px 5px 9px rgb(186, 182, 182);
     padding: 20px;
 }
 .div-1{
     position: absolute;
-    top: 35px;
+    top: 25px;
     right: 0px;
     font-size: 21px;
     width: 65%;
@@ -92,8 +80,7 @@
     opacity: 1.0;
     width: 85%;
     height: 10%;
-    /* //19-06 changes made */
-    font-size: 19px;
+    font-size: 18px;
     position: absolute;
     top: 52%;
     color: rgb(101, 98, 98);
@@ -105,17 +92,18 @@
     right: 15px;
 }
 .notshow{
-    /* //19-06 chnages made */
-    filter: blur(9px);
-    -webkit-filter: blur(9px);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
 }
 .pop-up{
     position: absolute;
+    /* -37left */
     left: 37%;
     top: 26%;
     color: red;
-    height: 25vh;
-    width: 26%;
+    /* h-25vh wid-26% */
+    height: 30vh;
+    width: 29%;
     border: 2px solid palevioletred;
     border-radius: 10px;
     font-size: 17px;
@@ -145,14 +133,12 @@
     border: none;
     margin-top: 17px;
     position: absolute;
-    left: 135px;
+    left: 140px;
     font-size: 17px;
     letter-spacing: 0.7;
     cursor: pointer;
     offset: none;
 }
-
-
 /* 19-06 changes made */
 #check{
     height: 15px;
@@ -161,11 +147,49 @@
 
 
 
+@media(max-width:450px) and (min-width:300px){
+    .line{
+        display: none;
+    }
+    .circle-back{
+        display: none;
+    }
+    .prev-page-arrow{
+        position: absolute;
+        top: 10px;
+        left: 27px;
+        width: 30px;
+        height: 40px;
+        /* font-size: 15px; */
+    }
+    .card{
+        width: 60%;
+        height: 95vw;
+        left: 55px;
+        border: none;
+    }
+    .div-1{
+        font-weight: bolder;
+    }
+    .pop-up{
+        height: 47vw;
+        width: 77%;
+        left: 35px;
+        top: 210px;
+    }
+    #btn{
+        left: 112px;
+        
+    }
+}
+
+
+
 /* media-queries */
-@media(max-width:600px) and (min-width:350px){
+/* @media(max-width:600px) and (min-width:350px){
     .line{
         /* display: none; */
-    }
+    /* }
     .circle-back{
         display: none;
     }
@@ -184,8 +208,8 @@
 #btn{
     left: 115px;
 }
-}
-
+} */
+ /*/
 
 
 /* //media-queries */
