@@ -178,7 +178,65 @@
         top: 210px;
     }
     #btn{
-        left: 112px;
+        left: 117px;
+        
+    }
+}
+
+@media(max-width:540px) and  (min-width:470px){
+    /* .line{
+        display: none;
+    }
+    .circle-back{
+        display: none;
+    }
+    .prev-page-arrow{
+        position: absolute;
+        top: 35px;
+        left: 110px;
+        width: 30px;
+        height: 40px;
+        
+    } */
+    .card{
+        width: 60%;
+        height: 95vw;
+        left: 75px;
+        border: none;
+    }
+    .div-1{
+        font-weight: bolder;
+    }
+    .pop-up{
+        height: 43vw;
+        width: 77%;
+        left: 60px;
+        top: 225px;
+    }
+    #btn{
+        left: 145px;
+        
+    }
+}
+
+@media(max-width:930px) and (min-width:700px){
+    .card{
+        width: 45%;
+        height: 65vw;
+        left: 180px;
+        border: none;
+    }
+    .div-1{
+        font-weight: bolder;
+    }
+    .pop-up{
+        height: 31vw;
+        width: 50%;
+        left: 170px;
+        top: 240px;
+    }
+    #btn{
+        left: 157px;
         
     }
 }

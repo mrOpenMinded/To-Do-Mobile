@@ -99,7 +99,7 @@
 
 /* media-queries */
 
-  @media(max-width:450px) and (min-width:300px){
+  @media(max-width:600px) and (min-width:350px){
     .line{
         display: none;
     }
@@ -123,6 +123,42 @@
         font-weight: bolder;
     }
 }
+
+/* @media (min-width:520px){
+    .line{
+        display: none;
+    }
+    .circle-back{
+        display: none;
+    }
+    .prev-page-arrow{
+        position: absolute;
+        top: 35px;
+        left: 95px;
+        width: 30px;
+        height: 40px;
+        /* font-size: 15px; */
+    /* } */
+    /* .card{
+        width: 60%;
+        height: 95vw;
+        left: 87px;
+    }
+    .div-1{
+        font-weight: bolder;
+    } */
+/* }  */
+
+/* @media(max-width:1010px) and (min-width:610px){
+    .card{
+        width: 45%;
+        height: 60vw;
+        left: 235px;
+    }
+    .div-1{
+        font-weight: bolder;
+    }
+} */
     /* .circle-back{
         display: none;
     }
@@ -135,25 +171,26 @@
         left: 65px;
     }
 }
-@media(max-width:1000px) and (min-width:601px){
+*/
+
+ @media(max-width:1000px) and (min-width:750px){ 
     .card{
-        width: 80%;
-        height: 101vw;
-        left: 50px;
+        width: 45%;
+        height: 67vw;
+        left: 220px;
     }
     .div-1{
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: bolder;
     }
-    .div-2{
+    /* .div-2{
         font-size: 40px;
-    }
-    .div-3{
+    } */
+    /* .div-3{
         font-size: 35px;
-    }
+    } */
     #check{
-        height: 25px;
-        width: 25px;
-    }
-    
-} */ 
-/*/
+        height: 15px;
+        width: 15px;
+    } 
+}
